@@ -1,0 +1,10 @@
+^C:\USERS\2JAKE\ONEDRIVE - MCGILL UNIVERSITY\MIME525\TERMPROJECT\INCLUDES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/2jake/OneDrive - McGill University/mime525/TermProject" "-BC:/Users/2jake/OneDrive - McGill University/mime525/TermProject/linux_build" --check-stamp-file "C:/Users/2jake/OneDrive - McGill University/mime525/TermProject/linux_build/includes/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

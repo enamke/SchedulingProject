@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\2jake\OneDrive - McGill University\mime525\TermProject\includes\epsilon_k_arm_bandit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\2jake\OneDrive - McGill University\mime525\TermProject\includes\epsilon_k_arm_bandit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\2jake\OneDrive - McGill University\mime525\TermProject\includes\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D4F1DB01-0217-31D8-A3BA-EC04070BA06A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85BA3A36-3EBB-3F04-AFB9-ABE98259ECC0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
